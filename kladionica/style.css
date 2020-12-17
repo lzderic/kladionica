@@ -1,0 +1,139 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+	margin: 0 40px;
+}
+
+ table {
+    margin-top:5px;
+	border-bottom:1pt solid green;
+	border-top:1pt solid green;
+	border-collapse:collapse;
+	border-spacing:0;
+	width:100%;
+}
+
+ th {
+	background-color:#DDDDDD;
+	border-bottom:1pt solid #CCCCCC;
+	text-align:left;
+}
+
+ td {
+	border-bottom:1pt dotted #CCCCCC;
+	padding:2px;
+}
+
+h2, caption {
+	font-size:small;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+figure {
+	margin: 0;
+}
+
+
+.greska {
+	font-weight:bolder;
+	color:red;
+}
+
+.menu {
+	background-color: green;
+	padding:3px;
+	text-align:center;
+}
+
+.aktivna {
+	color:yellow;
+	font-weight:bold;
+}
+
+
+.lijevi {
+	width:20%;
+}
+
+
+#sadrzaj {
+	clear:both;
+}
+
+#opis {
+	padding-left:5px;
+}
+
+#paginacija {
+	text-align:center;
+	background-color: green;;
+}
+
+
+a:hover {
+	color:yellow;
+}
+
+tr:hover {
+	background-color:white;
+}
+
+
+.menu a {
+	font-weight:bold;
+}
+
+.menu a:hover {
+	text-decoration:underline;
+}
+
+
+a.link {
+	background-color:yellowgreen;
+	margin-right: 2px;
+}
+
+a.sortable {
+	color:#FF8C00;
+}
+
+.au-nav nav{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.au-nav nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.dno {
+	position: fixed;
+	bottom:0;
+	width: 1840px;
+	text-align: center;
+	color:rgba(255, 255, 0, 0.801);	
+	margin-top: 10px;
+}
+
+.razmak{
+	margin-top: 77px;
+}
+
